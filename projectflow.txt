@@ -1,0 +1,10 @@
+first made a normal app.py
+add static/style.css and templates/index.html
+run app.py
+add dockerfile 
+then add requirements.txt 
+then follow some coomands 
+    - first signin in dockerdesktop
+    - then build docker image- docker build -t kubernates-test-app:latest .
+    - check docker images----- docker images
+    - run docker file -------- docker run -p 5000:5000 kubernates-test-app : lates
